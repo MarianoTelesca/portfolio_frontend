@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoArgProg {
+    width: 150px;
+}
+
+img {
+    width: 50px;   
+}
+
+.redesSociales {
+    margin-right: 0.5em;
+}
+
+.btn {
+    border-width: medium;
+}
+
+@media(max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redesSociales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redesSociales img{
+        margin: 0.2em;
+    }
+}
